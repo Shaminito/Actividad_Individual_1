@@ -198,6 +198,7 @@ void MayorElemento(Lista lista) {
             float valor = nodo->valor;
             if(valor > mayor){
                 mayor = valor;
+                repeticiones = -1;
             }
             if(valor == mayor){
                 repeticiones++;
