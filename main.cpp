@@ -13,9 +13,9 @@ typedef tipoNodo *Lista;
 
 /* Funciones con listas: */
 void InsertarINICIO(Lista *l, float v);
-void Borrar(Lista *l, int v);
 
 void BorrarLista(Lista *);
+
 void MostrarLista(Lista l);
 
 void InsertarFINAL(Lista *l, float valor);
