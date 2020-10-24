@@ -2,7 +2,7 @@
 #include <stdio.h>
 using namespace std;
 
-typedef struct _nodo {
+typedef struct _nodo {//no hace falta escribir la palabra reservada, sin embargo es correcta tu línea 
     float valor;
     struct _nodo *siguiente;
     struct _nodo *anterior;
@@ -39,7 +39,7 @@ int main() {
     int op;
 
     do{
-        cout<<"\n<< PROGRAMA PARA MAINPULAR LISTAS >>";
+        cout<<"\n<< PROGRAMA PARA MAINPULAR LISTAS >>";//falta nombre de alumno y profesor conforme se muestra en el enunciado
         cout<<"\n** Seleccione una opción del menu [0-9] **";
         cout<<"\n[ 1 ] Mostrar la lista";
         cout<<"\n[ 2 ] Insertar un elemento al INICIO de la lista";
